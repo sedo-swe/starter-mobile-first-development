@@ -1,5 +1,5 @@
 main {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 main h1 {
@@ -10,7 +10,7 @@ main h1 {
 }
 
 main h2 {
-  margin: 18px 0 12px 0;
+  margin: 12px 0 12px 0;
   border-bottom: 1px solid #5c4f41;
   font-family: "Special Elite", cursive;
   font-size: 24px;
@@ -26,4 +26,75 @@ main h3 {
 main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
+  line-height: normal;
 }
+
+img {
+  width: 100%;
+}
+
+.group {
+  padding: 10px 30px;
+  margin: 0px 0px 60px 0px;
+  list-style: none;
+  display: flex;
+}
+
+.group-row {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background: darkgoldenrod
+}
+
+.stretch {
+  align-items: stretch;
+}
+
+.stretch li {
+  background: white;
+}
+
+.item {
+  flex: 1;
+  padding: 5px;
+  width: 200px;
+  margin: 5px;
+
+  color: black;
+  font-size: 15px;
+  text-align: left;
+}
+
+.item-double {
+  flex: 2;
+  padding: 5px;
+  width: 400px;
+  margin: 5px;
+
+  line-height: 50px;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+}
+
+.item-small {
+  flex: 1;
+  padding: 10px;
+  width: 200px;
+  margin: 0px;
+  background: darkgoldenrod
+}
+
+.bgBrown {
+  background: darkgoldenrod
+}
+
+
+
+
